@@ -140,8 +140,6 @@ valoarea lui d_valid_nonce. Daca este inca UINT32_MAX, niciun nonce nu a
 fost gasit si functia intoarce 1. Altfel, scrie nonce ul gasit in
 valid_nonce si recalculeaza o singura data block_hash pe host, cu
 apply_sha256, pentru a popula iesirea asteptata de restul programului.
-
-        nonce += stride;
     }
 }
 
